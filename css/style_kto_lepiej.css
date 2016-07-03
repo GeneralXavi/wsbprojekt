@@ -1,0 +1,207 @@
+@font-face {
+	font-family: Roboto-Black;
+	src:url(fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src:url(fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: Roboto-Thin.ttf;
+	src:url(fonts/Roboto-Thin.ttf.ttf);
+}
+
+
+body{
+	background-image: url(../image/kto_lepiej/background_kto_lepiej.png);
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center top;
+	display: block;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 auto;
+	position: relative;
+	font-size: 1em;
+}
+
+html, body{
+	 margin: 0;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tytul{
+	position: relative;
+	margin-top: 2%;
+	width: 100%;
+	height: 5%;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	margin-left: 50%;
+	background-image: url(../grafika/prostokat.png);
+	background-position: center;
+	font-family: Roboto-Black;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: auto;
+}
+
+.statystyki{
+	position: relative;
+	margin-top: 5%;
+	float: center;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 150%;
+	font-family: Roboto-Thin.ttf
+}
+
+.pierwszy_zdjecie{
+	float: left;
+	position: relative;
+	padding-left: 5%;
+	max-width: 30%;
+	height: 100%;
+	padding-right: 5%;
+}
+
+#por1{
+	margin-top: 8vh;
+	width: 45%;
+	float: left;
+}
+
+#pierwszy{
+	float: left;
+	position: relative;
+	color: white;
+	line-height: 35%;
+	text-align: center;
+	font-size: 200%;
+	font-family: Roboto-Light;
+}
+
+#por2{
+	margin-top: 8vh;
+	width: 45%;
+	float: right;
+}
+
+#drugi{
+	float: right;
+	position: relative;
+	color: white;
+	line-height: 35%;
+	text-align: center;
+	font-size: 200%;
+	font-family: Roboto-Light;
+}
+
+.drugie_zdjecie{
+	float: right;
+	position: relative;
+	padding-left: 5%;
+	max-width: 30%;
+	height: 100%;
+	padding-right: 10%;
+}
+
+#pomiedzy{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 55vh;
+}
+
+.wybieram:hover{
+	width: 88%;
+}
+
+.nazwa_d{
+	font-family: Roboto-Light;
+	line-height: -10%;
+}
+
+
+.nazwa_w{
+	font-family: Roboto-Black;
+}
+
+#koniec1{
+	line-height: 145%;
+	padding-left: 30%;
+	text-align: center;
+}
+
+#koniec2{
+	line-height: 145%;
+	padding-right: 30%;
+	text-align: center;
+}
+
+.koniec_n{
+	font-family: Roboto-Light;
+}
+
+.koniec_g{
+	font-family: Roboto-Black;
+}
+
+.nazwa1{
+	font-size: 300%;
+	color: white;
+	position:fixed;
+	text-align:left;
+	bottom:0px;
+	left:15%;
+	width:100%;
+	font-family: Roboto-Black;
+}
+
+.kolejny:hover{
+	width: 15%;
+}
+
+.nazwa2{
+	font-size: 300%;
+	color: white;
+	position:fixed;
+	text-align:right;
+	bottom:0px;
+	right:15%;
+	width:100%;
+	font-family: Roboto-Black;
+}
+
+#wynik1{
+	line-height: 300%;
+
+}
+
+.powrot_div{
+	position:fixed;
+	text-align:left;
+	bottom:0px;
+	width:100%;
+	float: left;
+}
+.powrot:hover{
+	width: 13%;
+}

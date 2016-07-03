@@ -1,0 +1,117 @@
+html, body{
+	 margin: 0;
+	 width: 100%;
+	 height: 100vh;
+	 background-color: black;
+}
+
+a{
+text-decoration: none;
+color: white;
+cursor: pointer;
+}
+
+a:hover{
+	color: #3498db;
+}
+
+.jeden,.dwa,.trzy,.cztery,.piec{
+  position: absolute;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-top: 13%;
+}
+
+.trzy,.cztery,.piec{
+	padding-top: 14%;
+}
+
+
+.jeden:after, .dwa:after, .trzy:after, .cztery:after, .piec:after{
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.jeden{
+  background-color: #c1c1c1;
+  width: 20%;
+  height: 100%;
+  float: left;
+  left: 0%;
+  z-index: 1;
+    background-image: url('../image/home_page/tla/tlo_1.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+.dwa{
+  float: left;
+  left: 20%;
+  width: 20%;
+  height: 100%;
+  z-index: 2;
+	 background-image: url('../image/home_page/tla/tlo_2.png');
+	 background-repeat: no-repeat;
+	 background-size:cover;
+}
+.trzy{
+    float: left;
+	left: 40%;
+  width: 20%;
+  height: 100%;
+  z-index: 3;
+	 background-image: url('../image/home_page/tla/tlo_3.png');
+	 background-repeat: no-repeat;
+	 background-size:cover;
+}
+
+.cztery{
+    float: left;
+  left: 60%;
+  width: 20%;
+  height: 100%;
+  z-index: 4;
+	 background-image: url('../image/home_page/tla/tlo_4.png');
+	 background-repeat: no-repeat;
+	 background-size:cover;
+}
+
+.piec{
+    float: left;
+  left: 80%;
+  width: 20%;
+  height: 100%;
+  z-index: 5;
+	 background-image: url('../image/home_page/tla/tlo_5.png');
+	 background-repeat: no-repeat;
+	 background-size:cover;
+}
+
+.text-hover{
+  display: none;
+  padding-top: 10%;
+  color: white;
+  font-weight: bold;
+  line-height: 300%;
+  font-size: 1.8em;
+  font-family: arial;
+}
+.jeden:hover, .dwa:hover, .trzy:hover, .cztery:hover, .piec:hover{
+  width: 30%;
+  z-index:6;
+}
+
+
+.piec:hover{
+ left: 70%;
+}
+
+.jeden:hover .text-hover, .dwa:hover .text-hover, .trzy:hover .text-hover, .cztery:hover .text-hover, .piec:hover .text-hover{
+  display: block;
+}

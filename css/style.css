@@ -1,0 +1,88 @@
+#container{
+	width: 1920px;
+	height: 1080px;
+}
+
+#pierwszy{
+	margin-top: 10px;
+	min-width: 30%;
+	float: left;
+	text-align: center;
+	margin-right: 10%;
+	position: absolute;
+}
+
+#wynik1{
+	margin-top: 10px;
+	min-width: 30%;
+	float: left;
+	text-align: center;
+	margin-right: 10%;
+	position: absolute;
+}
+
+#pomiedzy{
+	margin-top: 10px;
+	min-width: 20%;
+	text-align: center;
+	float: left;
+	position: absolute;
+	margin-left: 40%;
+}
+
+#drugi{
+	margin-top: 10px;
+	min-width: 30%;
+	float: left;
+	text-align: center;
+	margin-left: 70%;
+	position: absolute;
+}
+
+#wynik2{
+	margin-top: 10px;
+	min-width: 30%;
+	margin-left: 20%;
+	text-align: center;
+	margin-left: 70%;
+	position: relative;
+}
+
+.glosuj{
+    height: 91px;
+	width: 40%;
+	font-size: 20px;
+	background-color: green;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.kolejny{
+	margin-top: 300px;
+}
+
+#wynik1, #wynik2{
+	color: red;
+
+}
+
+
+.wjynik_klasa1{
+	min-width: 40%;
+	margin-top: 10px;
+	min-width: 40%;
+	float: left;
+	text-align: center;
+}
+
+.wynkik_klasa2{
+	min-width: 40%;
+	margin-top: 10px;
+	min-width: 40%;
+	float: left;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
